@@ -1,4 +1,10 @@
+
+
 public class App {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         System.out.println("Mateus Haccourt");
@@ -14,7 +20,6 @@ public class App {
         System.out.printf("\nO valor é %d\n", numero);
 
         System.out.println(numero);
-
-        System.out.printf("O numero é: %d", numero);
+        System.out.println(numero2);
     }
 }
