@@ -5,17 +5,14 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        System.out.println("Mateus Haccourt");
+        System.out.println("Olá, bem-vindo a central de atendimento {provedor}");
 
-        int numero = 10;
-        float numero2 = 10.5f;
+    System.out.println("Meu nome é {atendente}, sou seu assistente virtual");
 
-        System.out.printf("Um texto:\n %s ", "de putaria");
+    System.out.println("Durante o atendimento siga minhas instruções");
 
-        System.out.printf("\nO valor é %d\n", numero);
+    System.out.println("Primeiramente informe seu nome");
 
-        System.out.println(numero);
-        System.out.println(numero2);
+    System.out.println("Obrigado {nome}, como posso lhe ajudar?");
     }
 }
