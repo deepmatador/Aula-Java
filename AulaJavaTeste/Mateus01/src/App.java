@@ -19,5 +19,7 @@ public class App implements Escape {
         String nomeCompleto = ScannerUtils.lerNomeCompleto();
         
         System.out.printf("\nObrigado %s, como posso lhe ajudar?\n", nomeCompleto);
+
+
     }
 }
