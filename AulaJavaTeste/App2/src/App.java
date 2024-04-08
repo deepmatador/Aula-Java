@@ -1,21 +1,26 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String provedor = "Deep Web S.A";
-        String atendente = "Vanessinha da Mata";
+        // CALCULO DE IMC CORPORAL
+        
 
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Insira seu Peso em KG: ");
+        double peso = scanner.nextDouble();
 
-        System.out.printf("Olá, bem-vindo a central de atendimento %s", provedor);
+        System.out.println("Digite sua altura");
+        double altura = scanner.nextDouble();
 
-        System.out.println("Meu nome é {atendente}, sou seu assistente virtual");
+        double IMC = 0;
 
-        System.out.println("Durante o atendimento siga minhas instruções");
+        IMC = peso / (altura * altura);
 
-        System.out.println("Primeiramente informe seu nome");
+        System.out.println("Seu IMC é: " + IMC );
 
-        System.out.println("Obrigado {nome}, como posso lhe ajudar?");
-
-        System.out.println("Hello, World!");
+        scanner.close();
+        
     }
 }
