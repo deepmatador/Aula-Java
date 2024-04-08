@@ -6,11 +6,11 @@ public class EscolhendoTime {
         Scanner scanner = new Scanner(System.in);
         
 
-        System.out.println("\tQual é o seu time favorido?");
-        System.out.println("\t1º Gremio = 1");
-        System.out.println("\t2º Corithians = 2");
-        System.out.println("\t3º Palmeiras = 3");
-        System.out.println("\t4º Santos = 4");
+        System.out.println("Qual é o seu time favorido? escolha uma opção valida?\n");
+        System.out.println("1º Gremio = 1");
+        System.out.println("2º Corithians = 2");
+        System.out.println("3º Palmeiras = 3");
+        System.out.println("4º Santos = 4");
 
         int escolheTime = scanner.nextInt();
         scanner.close();

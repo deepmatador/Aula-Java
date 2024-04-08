@@ -6,9 +6,11 @@ public class App {
         // Iniciando a função Scanner do Pacote Java.util
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("\n\n------ COLETA DE DADOS --------");
+
         // Solicitando ao usuário que insira seu nome completo via teclado
 
-        System.out.println("- Digite seu nome completo: ");
+        System.out.println("\n- Digite seu nome completo: ");
         String nome = scanner.nextLine();
 
         // Solicitando ao usuário que insira a sua idade teclado
@@ -53,7 +55,7 @@ public class App {
         System.out.println("********* INFORMAÇÕES COLETADAS **********");
         System.out.printf("\n - Seu nome é: %s\n", nome);
         System.out.printf("\n - Sua idade é: %d\n", idade);
-        System.out.printf("\n - Seu nome é: %.2f\n", altura);
+        System.out.printf("\n - Sua altura é: %.2f\n", altura);
         System.out.println("\n- Cor escolhida foi: \n" + corEscolhida);
         System.out.println("\n - Time escolhido foi: \n" + timeString);
         scanner.close();
