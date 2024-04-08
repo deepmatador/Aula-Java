@@ -20,8 +20,7 @@ public class App {
 
         // Solicitando ao usuário que insira a sua idade
 
-        System.out.println(
-                "\nDigite sua altura, mas use vigula separadora (,) para diferenciar os centimetros dos metros\n");
+        System.out.println("\nDigite sua altura, mas use vigula separadora (,) para diferenciar os centimetros dos metros\n");
         double altura = scanner.nextDouble();
 
         System.out.println("Escolha uma cor [1 - azul] | [2 - Branco] | [3 - Marrom]:\n ");
