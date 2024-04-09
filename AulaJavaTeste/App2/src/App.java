@@ -18,7 +18,7 @@ public class App {
 
         IMC = peso / (altura * altura);
 
-        System.out.println("Seu IMC é: " + IMC );
+        System.out.printf("Seu IMC é: %.2f ", IMC );
 
         scanner.close();
         
